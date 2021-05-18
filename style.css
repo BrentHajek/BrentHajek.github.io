@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color:#5c2be2;
+    font: 16px sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.618em;
+}
+
+a {
+    color: blue;
+    padding: .25rem .5rem;
+    text-decoration: none;
+}
+
+.background__image {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgb(37, 38, 39);
+    margin: 2rem auto;
+    max-width: 60rem;
+    width: 90%;
+    box-shadow: 7px 5px 32px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 5px 32px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 5px 32px -6px rgba(0,0,0,0.75);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header__title {
+    margin-left: 1rem;
+    margin-top: .5em;
+    font-size: 4em;
+}
+
+.header__nav__list {
+    display: flex;
+}
+
+.header__nav__listItem {
+    list-style-type: none;
+    margin: 6px;
+}
+
+.header__nav__listItem:hover {
+    background-color: darkblue;
+    border: 1px solid black;
+    transition: 1s;
+}
+
+#profile__title {
+    margin: 2rem;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.about__me__section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.my__headshot {
+    height: auto;
+    margin-top: 2rem;
+    max-width: 100%;
+}
+
+.contact__information {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-top: 2em;
+}
+
+.contact__me__list {
+    margin-left: 4rem;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-top: 2em;
+}
+
+.skillsListItem {
+    margin-left: 4rem;
+}
+
+#projects__title {
+    margin-top: 2em;
+    text-align: center;
+    background-color: rgb(46, 46, 46)
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(46, 46, 46);
+}
+
+.projects__column__figure {
+    text-align: center;
+}
+
+.projects__column {
+    padding: .5rem;
+}
+
+.projects__column__title {
+    margin: 1rem;
+    text-align: center;
+}
+
+.project__image {
+    border: 1px solid black;
+    text-align: center;
+    height: auto;
+    max-width: 100%;
+}
+
+.footer {
+    margin-top: 2em;
+    text-align: center;
+}

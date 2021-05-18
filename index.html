@@ -5,11 +5,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Hello World</title>
 </head>
 
-<body>
-
+<body background="images\stars1.jpg" class="background__image">
+    <div class="container">
+        <header class="header">
+            <h1 id="header__title">Brent Hajek</h1>
+            <nav class="header__nav">
+                <ul class="header__nav__list">
+                    <li class="header__nav__listItem"><a href="#profile__title">About Me</a></li>
+                    <li class="header__nav__listItem"><a href="#projects__title">Current Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h2 id="profile__title">About Me</h2>
+        <section class="about">
+            <article class="about__me__section"> 
+                <h3 class="about__me__bio">Biography</h3>
+                <p>Welcome to my personal site. I'm currently learning Java through We Can Code IT and having a wonderful time. 
+                    I love talking to computers and getting them to do what I tell them to. Currently working as a database 
+                    coordinator for a non-profit. I hope to land a job in the software field when my class is done.
+                </p>
+                <figure class="headshot">
+                <img src="images\IMG_20210517_204049664.jpg" alt="my__headshot" class="my__headshot">
+                </figure>
+            </article>
+            <article class="contact__information">
+                <h3 class="about__me__contact__info">Contact Information</h3>
+                <p>Feel free to contact me!</p>
+                <ul class="contact__me__list">
+                    <li class="contact__me__listItem">Email: brenthajek@hotmail.com</li>
+                    <li class="contact__me__listItem">Phone: (440) 371-6656</li>
+                    <li class="contact__me__listLink"><a href="https://www.linkedin.com/in/brent-hajek-4a617932/" target="_blank">LinkedIn Profile</a></li>
+                    <li class="contact__me__listLink"><a href="https://github.com/BrentHajek" target="_blank">GitHub Profile</a></li>
+                </ul>
+            </article>
+            <article class="skills">
+                <h3 class="about__me__skills">Skills</h3>
+                <ul class="skills__list">
+                    <li class="skillsListItem">Java</li>
+                    <li class="skillsListItem">TDD</li>
+                    <li class="skillsListItem">HTML and CSS</li>
+                    <li class="skillsListItem">IntelliJ</li>
+                </ul>
+            </article>
+        </section>
+        <h2 id="projects__title">Current Projects</h2>
+        <section class="projects">
+            <article class="projects__column">
+                <h3 class="projects__column__title">Virtual Pet</h3>
+                <figure class="projects__column__figure">
+                    <img src="images\VirtualPet.jpg" alt="virtualPetScreenshot" class="project__image">
+                </figure>
+                <p>First class project designed in IntelliJ IDEA using TDD and a simple user interface to control one pet.</p>
+            </article>
+            <article class="projects__column">
+                <h3 class="projects__column__title">Virtual Pet Shelter</h3>
+                <figure class="projects__column__figure">
+                    <img src="images\VirtualPetShelter.jpg" alt="virtualPetShelterScreenshot" class="project__image">
+                </figure>
+                <p>Second class project designed in IntelliJ IDEA using TDD and a maintenance class to control a variety of pets.</p>
+            </article>
+            <article class="projects__column">
+                <h3 class="projects__column__title">Virtual Pets Amok</h3>
+                <figure class="projects__column__figure">
+                    <img src="images\VirtualPetsAmok.jpg" alt="virtualPetsAmokScreenshot" class="project__image">
+                </figure>
+                <p>Third class project designed in IntelliJ IDEA using TDD and OOP (with superclasses and interfaces) to control behaviors for different types of pets.</p>
+            </article>
+        </section>
+        <footer class="footer">
+            <small class="footer__copyright">&copy; Brent Hajek 2021</small>
+        </footer>
+    </div>
 </body>
 
 </html>
