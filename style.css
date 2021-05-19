@@ -132,7 +132,7 @@ a {
 .project__image {
     border: 1px solid black;
     text-align: center;
-    height: 273.5px;
+    height: auto;
     max-width: 100%;
 }
 
