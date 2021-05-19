@@ -146,6 +146,7 @@ a {
         align-items: center;
         display: flex;
         flex-direction: column;
+        line-height: normal;
         margin: 0;
     }
     .header__nav__list {
