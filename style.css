@@ -141,7 +141,7 @@ a {
     top: -25px;
     left: -35px;
     transform: scale(1.5);
-    display: block;
+    display: box;
     z-index: 999;
 }
 
