@@ -136,6 +136,15 @@ a {
     max-width: 100%;
 }
 
+.project__image:hover {
+    position: relative;
+    top: -25px;
+    left: -35px;
+    transform: scale(1.5);
+    display: block;
+    z-index: 999;
+}
+
 .footer {
     margin-top: 2em;
     text-align: center;
