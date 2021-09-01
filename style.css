@@ -76,21 +76,33 @@ a {
     margin-left: 1rem;
 }
 
+.about__me__bio__paragraph__and__image {
+    display: flex;
+    grid-gap: 20px;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.bio__paragraph {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.headshot {
+    text-align: center;
+}
+
 .my__headshot {
     height: auto;
-    margin-top: 2rem;
-    max-width: 100%;
+    max-width: 50%;
 }
 
 .contact__information {
     display: flex;
     flex-direction: column;
-    margin-left: 1rem;
     margin-top: 2em;
-}
-
-.contact__me__list {
-    margin-left: 4rem;
+    text-align: center;
 }
 
 .skills {
@@ -98,6 +110,12 @@ a {
     flex-direction: column;
     margin-left: 1rem;
     margin-top: 2em;
+}
+
+.skills__list {
+    columns: 5;
+    margin-left: 7rem;
+    margin-top: 1em;
 }
 
 .skillsListItem {
@@ -150,6 +168,29 @@ a {
     text-align: center;
 }
 
+@media only screen and (max-width: 1050px) {
+    .skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+    .skills__list {
+        columns: 3;
+        justify-content: center;
+        margin: 0;
+    }
+    .about__me__bio__paragraph__and__image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+    .my__headshot {
+        max-width: 35%;
+    }
+}
+
 @media only screen and (max-width: 767px) {
     .header {
         align-items: center;
@@ -168,6 +209,17 @@ a {
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
+    .skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+    .skills__list {
+        columns: 2;
+        justify-content: center;
+        margin: 0;
     }
     .projects {
         display: flex;
