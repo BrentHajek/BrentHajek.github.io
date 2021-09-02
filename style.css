@@ -98,13 +98,6 @@ a {
     max-width: 50%;
 }
 
-.contact__information {
-    display: flex;
-    flex-direction: column;
-    margin-top: 2em;
-    text-align: center;
-}
-
 .skills {
     display: flex;
     flex-direction: column;
@@ -135,11 +128,13 @@ a {
 }
 
 .projects__column__figure {
+    height: 60%;
     text-align: center;
 }
 
 .projects__column {
-    padding: .5rem;
+    margin: 1rem;
+    
 }
 
 .projects__column__title {
@@ -147,10 +142,15 @@ a {
     text-align: center;
 }
 
+.java__project__para {
+    margin-top: 10px;
+}
+
 .project__image {
     border: 1px solid black;
     text-align: center;
     height: auto;
+    margin-bottom: 10px;
     max-width: 100%;
 }
 
@@ -158,9 +158,27 @@ a {
     position: relative;
     top: -25px;
     left: -35px;
-    transform: scale(1.5);
+    transform: scale(2.25);
     display: box;
     z-index: 999;
+}
+
+.resume__section {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.resume__preview__img {
+    height: 25%;
+    margin-top: 1em;
+    max-width: 25%;
+}
+
+.contact__information {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    text-align: center;
 }
 
 .footer {
@@ -188,6 +206,14 @@ a {
     }
     .my__headshot {
         max-width: 35%;
+    }
+    .projects {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .project__image {
+        max-width: 65%;
     }
 }
 
@@ -220,11 +246,6 @@ a {
         columns: 2;
         justify-content: center;
         margin: 0;
-    }
-    .projects {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
     }
     .footer {
         display: flex;
