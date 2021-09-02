@@ -12,9 +12,8 @@ html {
 }
 
 a {
-    color: blue;
+    color: rgb(95, 164, 177);
     padding: .25rem .5rem;
-    text-decoration: none;
 }
 
 .background__image {
@@ -143,22 +142,35 @@ a {
 }
 
 .java__project__para {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .project__image {
     border: 1px solid black;
     text-align: center;
     height: auto;
-    margin-bottom: 10px;
     max-width: 100%;
+}
+
+.project__image__java {
+    border: 1px solid black;
+    text-align: center;
+    height: auto;
+    max-width: 90%;
 }
 
 .project__image:hover {
     position: relative;
     top: -25px;
-    left: -35px;
     transform: scale(2.25);
+    display: box;
+    z-index: 999;
+}
+
+.project__image__java:hover {
+    position: relative;
+    top: -25px;
+    transform: scale(1.75);
     display: box;
     z-index: 999;
 }
@@ -172,6 +184,14 @@ a {
     height: 25%;
     margin-top: 1em;
     max-width: 25%;
+}
+
+.resume__preview__img:hover {
+    position: relative;
+    top: -25px;
+    transform: scale(1.5);
+    display: box;
+    z-index: 999;
 }
 
 .contact__information {
