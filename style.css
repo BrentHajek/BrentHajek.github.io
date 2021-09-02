@@ -17,6 +17,7 @@ a {
 }
 
 .background__image {
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -206,7 +207,25 @@ a {
     text-align: center;
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1048px) {
+    .header {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        line-height: normal;
+        margin: 0;
+    }
+    .header__nav__list {
+        display: flex;
+        margin: 0;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .about {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
     .skills {
         display: flex;
         flex-direction: column;
@@ -248,7 +267,7 @@ a {
     .header__nav__list {
         display: flex;
         margin: 0;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
     }
     .about {
