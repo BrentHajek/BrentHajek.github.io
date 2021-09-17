@@ -9,17 +9,12 @@ html {
     font: 16px sans-serif;
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.618em;
+    background-color: rgb(84, 125, 145);
 }
 
 a {
     color: rgb(95, 164, 177);
     padding: .25rem .5rem;
-}
-
-.background__image {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .container {
