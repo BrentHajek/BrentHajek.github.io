@@ -13,8 +13,13 @@ html {
 }
 
 a {
-    color: rgb(95, 164, 177);
+    color: rgb(56, 204, 204);
     padding: .25rem .5rem;
+}
+
+a:hover {
+    color: #C96B25;
+    text-decoration: none;
 }
 
 .container {
@@ -44,13 +49,16 @@ a {
 }
 
 .header__nav__listItem {
+    border-radius: 10px;
     list-style-type: none;
     margin: 6px;
 }
 
 .header__nav__listItem:hover {
-    background-color: darkblue;
+    background-color: rgb(56, 204, 204);
     border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
     transition: 1s;
 }
 
