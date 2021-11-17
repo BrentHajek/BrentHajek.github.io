@@ -174,7 +174,7 @@ a:hover {
 .project__image__java:hover {
     position: relative;
     top: -25px;
-    transform: scale(1.75);
+    transform: scale(1.72);
     display: box;
     z-index: 999;
 }
